@@ -1,5 +1,5 @@
 async function carregarHelps(){
-    const response = await axios.get('http://localhost:8000/helps')
+    const response = await axios.get('yourendpoint')
   
     const helps = response.data
 
